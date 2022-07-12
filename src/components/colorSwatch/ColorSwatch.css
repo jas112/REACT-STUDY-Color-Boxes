@@ -1,0 +1,25 @@
+.ColorSwatchContainer{
+    width: 800px;
+    height: 800px;
+    box-shadow: 4px 0px 20px #00000050;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.ColorSwatchContainer-box-holder{
+    width: 770px;
+    height: 770px;
+    box-shadow: 4px 0px 20px #00000050;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 15px;
+    overflow: hidden;
+}

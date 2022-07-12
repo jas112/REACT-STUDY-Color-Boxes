@@ -1,0 +1,11 @@
+.ColorBox{
+    width: 25%;
+    height: 25%;
+    border-spacing: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
