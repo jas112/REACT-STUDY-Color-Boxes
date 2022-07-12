@@ -26,12 +26,12 @@ class ColorSwatch extends Component {
     };
     render() {
 
-        const boxes = Array.from({length: this.props.numboxes}).map(() => (<ColorBox colors={this.props.boxColorLibrary}/>));
+        const boxes = Array.from({length: this.props.numBoxes}).map(() => (<ColorBox colors={this.props.boxColorLibrary}/>));
 
         return (
             <div>
                 <h1>ColorSwatch</h1>
-                <div className='ColorSwatch'>
+                <div className='ColorSwatchContainer'>
                     <div className='ColorSwatchContainer-box-holder'>
                         {boxes}
                     </div>
