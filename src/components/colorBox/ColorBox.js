@@ -22,12 +22,13 @@ class ColorBox extends Component {
 
     handleClick(e){
         console.log('Color Box clicked.');
+        this.randomColor();
     }
 
 
   render() {
     return (
-      <div className='ColorBox' style={{backgroundColor: this.state.boxColor}}>
+      <div className='ColorBox' style={{backgroundColor: this.state.boxColor}} onClick={this.handleClick}>
         <p>{this.props.boxColor}</p>
       </div>
     )
